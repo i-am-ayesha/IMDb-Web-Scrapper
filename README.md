@@ -7,13 +7,13 @@ Using Python’s requests library and BeautifulSoup, we will fetch IMDb's HTML c
 Fetch IMDb Data: Start by calling the IMDb Top 100 Movies page using the requests library.
 ### 1. Extract Key Movie Attributes:
 Parse the HTML using BeautifulSoup and extract essential details like:
-🎥 Movie Name
-📅 Release Year
-⏳ Runtime
-⭐ Ratings
-🏅 Metascore
-🗳 Number of Votes
-💰 Gross Budget
+1. 🎥 Movie Name
+2. 📅 Release Year
+3. ⏳ Runtime
+4. ⭐ Ratings
+5. 🏅 Metascore
+6. 🗳 Number of Votes
+7. 💰 Gross Budget
 ### 2. Organize Data: 
 Structure all movie information in Python lists and create a Pandas DataFrame.
 ### 3. Data Cleaning: 
@@ -26,8 +26,8 @@ Save the cleaned data as a CSV file (top_100_movies.csv) for future use.
 3. Data is cleaned, structured, and saved in a well-organized CSV file.
 4. Script can be customized to scrape different IMDb movie categories or lists.
 ## 🛠️ Tech Stack:
-**Python:** For coding the entire project.
-**BeautifulSoup:** To parse and scrape IMDb’s web page.
-**Requests:** To fetch HTML content from IMDb.
-**Pandas:** For organizing and cleaning the data in a DataFrame.
-**CSV:** To store the final movie data.
+1. **Python:** For coding the entire project.
+2. **BeautifulSoup:** To parse and scrape IMDb’s web page.
+3. **Requests:** To fetch HTML content from IMDb.
+4. **Pandas:** For organizing and cleaning the data in a DataFrame.
+5. **CSV:** To store the final movie data.
